@@ -8,9 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Singleton\" />
+    <None Remove="FactoryPattern\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Singleton\" />
+    <Folder Include="FactoryPattern\" />
   </ItemGroup>
 </Project>
