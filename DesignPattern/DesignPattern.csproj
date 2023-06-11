@@ -9,8 +9,10 @@
 
   <ItemGroup>
     <None Remove="FactoryPattern\" />
+    <None Remove="DependencyInjectionPattern\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="FactoryPattern\" />
+    <Folder Include="DependencyInjectionPattern\" />
   </ItemGroup>
 </Project>

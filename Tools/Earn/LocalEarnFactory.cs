@@ -5,7 +5,7 @@ namespace Tools.Earn
 	{
         private decimal _percentage;
 
-        public LocalEarnFactory(decimal percentage)
+        public LocalEarnFactory(decimal percentage  )
         {
             _percentage = percentage;
         }

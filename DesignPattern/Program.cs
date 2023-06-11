@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using DesignPattern.DependencyInjectionPattern;
 using DesignPattern.FactoryPattern;
 using DesignPattern.Singleton;
 
@@ -28,3 +29,8 @@ ISale sale1 = storeSaleFactory.GetSale();
 sale1.Sell(100);
 ISale sale2 = internetSaleFactory.GetSale();
 sale2.Sell(120);
+
+//Dependency injection
+var beer = new Beer("", "");
+var drinkWithBeer = new DrinkWithBeer(10, 1, beer);
+drinkWithBeer.Build();

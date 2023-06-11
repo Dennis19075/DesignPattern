@@ -18,13 +18,13 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        Log.GetInstance(_config.Value.pathLog).Save("Entro a index");
+        Log.GetInstance(_config.Value.PathLog).Save("Entro a index");
         return View();
     }
 
     public IActionResult Privacy()
     {
-        Log.GetInstance(_config.Value.pathLog).Save("Entro a privacy");
+        Log.GetInstance(_config.Value.PathLog).Save("Entro a privacy");
         return View();
     }
 
